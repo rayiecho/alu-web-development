@@ -1,0 +1,76 @@
+/* Layout (task 1) */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Custom styling (task 3) */
+body {
+  background-color: #f7f5f0;
+  color: #2b2b2b;
+}
+
+header {
+  background-color: #1f3b4d;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #f2b134;
+}
+
+header .logo {
+  color: #f2b134;
+}
+
+article h1 {
+  color: #1f3b4d;
+  border-bottom: 3px solid #f2b134;
+  padding-bottom: 8px;
+}
+
+article h2,
+article h3 {
+  color: #2e5e7a;
+}
+
+article a {
+  color: #c1771b;
+}
+
+aside {
+  background-color: #eae6dc;
+  border-left: 4px solid #f2b134;
+  font-style: italic;
+}
+
+footer {
+  background-color: #1f3b4d;
+  color: #dddddd;
+  text-align: center;
+}
+
+footer a {
+  color: #f2b134;
+}
